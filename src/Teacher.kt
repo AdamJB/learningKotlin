@@ -5,4 +5,8 @@ class Teacher(
         val gender: String,
         val currentSubject: String,
         val students: List<Student>) {
+
+    fun studentWithHIghestGrade(): Student? {
+        return null;
+    }
 }
