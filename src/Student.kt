@@ -5,4 +5,9 @@ class Student(
         val gender: String,
         val favoriteSubject: String,
         val numericGrade: Int) {
+
+    fun getLetterGrade(): String {
+        // TODO: Do this.
+        return ""
+    }
 }
